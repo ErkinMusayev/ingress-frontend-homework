@@ -1,39 +1,664 @@
-body{
-    background-color: antiquewhite;
-    font-family: sans-serif;
-}
-h1{
-    color: blue;
-}
-h5{
-    color: gray;
-}
-#name,#mail,#phone{
-    background-color: antiquewhite;
-    width: 200px;
-    height: 30px;
-    border: 0.01px solid black ;
-   padding-left: 20px;
-    border-radius: 25px;
 
-    margin: 10px;
-    display: block;
 }
-p{
+body{
+    position: relative;
+    width: 1440px;
+    height: 5031px;
+    background: #FFFFFF;}
+                /*HEADER  START*/
+.logo{
+    position: absolute;
+    width: 96px;
+    height: 30px;
+   
+    margin-top: 59px;
+    margin-left: 99px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+}
+#logo{
+    color: blue;
     display: inline-block;
 }
-#und{
-    color: black;
-   
-   
+header{
+    position: absolute;
+    display: flex;
+    width: 430px;
+    height: 19px;
+    margin-top: 70px;
+    margin-left: 516px;
 }
-a{
-    color: black;
+nav{
+    display: flex;
 }
-#button{
-    color: white;
-    background-color: brown;
-    width: 200px;
-    height: 25px;
-    font-family: cursive;
+nav ul{
+    display: flex;
+    position: absolute;
+    z-index: 12;
 }
+nav ul li{
+    padding: 30px;
+    margin top:70px ;
+    width: 44px;
+    height: 19px;
+    display: block;
+    font-family:font-family: 'Lato', sans-serif; ;
+}
+nav ul  :first-child a{
+    position: absolute;
+    margin-left: -50px;
+    justify-content: center;
+    color:#FE753E ;
+    text-decoration: none;
+}
+nav ul :nth-child(2),#AA{
+    justify-content: center;
+    color:#2B2C43 ;
+    text-decoration: none;
+}
+nav ul  :nth-child(3) a{
+    justify-content: center;
+    color:#2B2C43 ;
+    text-decoration: none;
+}
+nav ul  :nth-child(4) a{
+    justify-content: center;
+    color:#2B2C43 ;
+    text-decoration: none;
+}
+    .contact-button input{
+        position: absolute;
+        width: 130px;
+        height: 50px;
+        margin-top: 59px;
+        margin-left: 1208PX;
+        border: 0.5px solid #FE753E;
+        border-radius: 5px;
+        background: #FE753E;
+        color:  #FFFFFF;
+        z-index: 12;
+    }
+    .contact-button input:hover{
+        cursor: pointer;
+    }
+                       /*HEADER  END*/
+
+                       /* Title Start */
+    .restaurant{
+        position: absolute;
+        color: #FE753E;
+        height: 22px;
+        width: 176px;
+        margin-left: 102px;
+        margin-top: 272px;
+        font-size: 18px;
+        font-family:font-family: 'Lato', sans-serif; ;
+        z-index: 12;
+        
+    } 
+    .we-make{
+        position: absolute;
+        color: #2B2C43;
+        width: 480px;
+        height: 51px;
+        margin-top: 524px;
+        margin-left: 102px;
+        font-size: 16px;
+        font-family:font-family: 'Lato', sans-serif; ;
+        z-index: 12;
+    }
+    .enjoy{
+        position: absolute;
+        color: #2B2C43;
+        width: 628px;
+        height: 156px;
+        margin-top: 330px;
+        margin-left: 97px;
+        font-size: 54px;
+        font-family: 'Abril Fatface', cursive;
+        z-index: 12;
+    }
+    .img-here .box1{
+        position: absolute;
+        width: 775px;
+        height: 545px;
+        margin-left: 542px;
+        margin-top: 233px;  
+        z-index: 9;
+        background: #3B4C68;
+        background-image: url(../assets/images/zeytun.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .img-here .box2{
+        position: absolute;
+        width: 774px;
+        height: 545px;
+        margin-left: 524px;
+        margin-top: 267px;
+        z-index: 6;
+        background: rgba(230, 230, 230, 0.51);
+        filter: blur(100px);
+        border-radius: 10px;
+    }
+    .img-here .box3{
+        position: absolute;
+        width: 838px;
+        height: 949px;
+        margin-left: 602px;
+        margin-top: 0px;
+        z-index: 3;
+        background: #F6F6FB;
+        opacity: 0.5;
+    }
+
+                         /* Title End */
+
+                         /* About Us start */
+    .about-us-image{
+        position: absolute;
+        width: 457px;
+        height: 541px;
+        margin-left: 136px;
+        margin-top: 1120px;
+        background-image: url(../assets/images/best-shisha-in-baku.jpg);
+        
+        border-radius: 29px;
+    }
+    p.about-us{
+        position: absolute;
+        width: 115px;
+        height: 22px;
+        margin-left: 712px;
+        margin-top: 1182px;
+        font-family: 'Lato',sans-serif;;
+        font-size: 18px;
+        color: #FE753E;
+    }
+    p.about-us-2{
+        position: absolute;
+        width: 618px;
+        height: 141px;
+        margin-left: 712px;
+        margin-top: 1238px;
+        font-family: 'Abril Fatface';
+        font-size: 32px;
+        color: #2B2C43;
+    }
+    p.about-us-3{
+        position: absolute;
+        width: 556px;
+        height: 107px;
+        margin-left: 712px;
+        margin-top: 1363px;
+
+        font-family: 'Lato',sans-serif;
+        font-size: 16px;
+        color: #2B2C43;
+
+opacity: 0.7;
+    }
+    .about-us input{
+        position: absolute;
+        width: 160px;
+        height: 55px;
+        margin-left: 712px;
+        margin-top: 1519px;
+        background: #2E47BD;
+        color: #FFFFFF;
+
+        border-radius: 4.30769px;
+    }
+    .about-us input:hover{
+        cursor: pointer;
+    }
+                        /* About Us End */
+
+                        /* Menu Section start */
+    p.best-menu-1{
+        position: absolute;
+        width: 129px;
+        height: 22px;
+        margin-left: 655px;
+        margin-top: 1870px;
+        font-family: 'Lato',sans-serif;
+        font-size: 18px;
+       color: #FE753E;
+    }      
+    p.best-food{
+        position: absolute;
+        width: 442px;
+        height: 43px;
+        margin-left: 499px;
+        margin-top: 1912px;
+        font-family: 'Abril Fatface';
+        font-size: 32px;
+        color: #2B2C43;
+    }
+    .menu-box-1{
+        position: absolute;
+        width: 400px;
+        height: 246px;
+        margin-left: 100px;
+        margin-top: 2286px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        font-family:'Lato',sans-serif ;
+        box-shadow: 5px 10px 8px #888888;
+    }
+    .menu-section .img-box-1{
+        position: absolute;
+        width: 400px;
+        height: 246px;
+        margin-left:100px;
+        margin-top: 2053px;
+        background-image: url(../assets/images/fresh-salad.jpg);
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .menu-box-2{
+        position: absolute;
+        width: 400px;
+        height: 246px;
+        margin-left: 520px;
+        margin-top: 2286px;
+        border: 0.5px white;
+        background: #FFFFFF;
+        border-radius: 10px;
+        font-family:'Lato',sans-serif ;
+        box-shadow: 5px 10px 8px #888888;
+        
+    }
+    .menu-section .img-box-2{
+        position: absolute;
+        width: 400px;
+        height: 246px;
+        margin-left: 520px;
+        margin-top: 2053px;
+
+        background-image: url(../assets/images/fruit-salad-5.jpg);
+        border-radius: 10px;
+        background-size: cover;
+        background-position: 20px;
+    }
+    .menu-box-3{
+        position: absolute;
+        width: 400px;
+        height: 246px;
+        margin-left: 940px;
+        margin-top: 2286px;
+        box-shadow: 5px 10px 8px #888888;
+        background: #FFFFFF;
+        border-radius: 10px;
+        font-family:'Lato',sans-serif ;
+    }
+    .menu-section .img-box-3{
+        position: absolute;
+        width: 400px;
+        height: 246px;
+        margin-left: 940px;
+        margin-top: 2053px;
+
+        background-image: url(../assets/images/soft-mix-salad.jpg);
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .menu-section h3{
+        font-size: 24px;
+        color: #2B2C43;
+    }
+    .menu-section p:not(:nth-child(1,2)){
+        font-size: 16px;
+        color: #2B2C43;
+        opacity: 0.5;
+
+    }
+    .menu-section a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #2E47BD;
+    }
+    .menu-section-background{
+        position: absolute;
+        width: 1442px;
+        height: 949px;
+        margin-left: -2px;
+        margin-top: 1772px;
+
+        background: #F6F6FB;
+        opacity: 0.5;
+    }
+
+                    /* Menu Section End */
+
+                    /* Gallery Section Start */
+
+         p.gallery-1{
+            position: absolute;
+            width: 100px;
+            height: 22px;
+            margin-left: 100px;
+            margin-top: 2937px;
+            font-family:'Lato',sans-serif ;
+            font-size: 18px;
+            color: #FE753E;
+
+         }           
+         p.gallery-2{
+            position: absolute;
+            width: 571px;
+            height: 79px;
+            margin-left: 100px;
+            margin-top: 2985px;
+            font-family: 'Abril Fatface';
+            font-size: 32px;
+            color: #2B2C43;
+         }
+         p.gallery-3{
+            position: absolute;
+            width: 556px;
+            height: 107px;
+            margin-left: 100px;
+            margin-top: 3123px;
+
+            font-family: 'Lato',sans-serif;
+            font-size: 16px;
+            color: #2B2C43;
+            opacity: 0.7; 
+
+         }
+         .Gallery .img-here{
+            position: absolute;
+            width: 399.09px;
+            height: 573.4px;
+            margin-left: 768px;
+            margin-top: 2896px;
+            border-radius: 30px;
+            background-image: url(../assets/images/gallery-image.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+         }
+         .Gallery .mask-group{
+            position: absolute;
+            width: 266px;
+            height: 395px;
+            margin-left: 1198px;
+            margin-top: 2985px;
+            
+            background-image: url(../assets/images/galllery-image-2.jpg);
+            border-radius: 30px;
+         }
+         .Gallery .ellipsebox{
+             width: 305px;
+             height: 203.75px;
+            position: absolute;
+            margin-left:1026px;
+            margin-right: 109px;
+            margin-top:3271px;
+          
+         }
+         .ellipse{
+             display: inline-block;
+            margin: 8px;
+            width: 5.75px;
+            height: 6.5px;
+            background: #3B4C68;
+            border-radius: 50%;
+            opacity: 0.1;
+           
+         }
+                         /* Gallery Section End */
+
+                        /* Testimonial Section Start */
+
+         p.testimonial{
+            position: absolute;
+            width: 156px;
+            height: 22px;
+            margin-left: 127px;
+            margin-top: 3680px;
+            font-family: 'Lato',sans-serif;
+            font-size: 18px;
+            color: #FE753E;
+         }     
+         p.testimonial-2{
+            position: absolute;
+            width: 483px;
+            height: 99px;
+            margin-left: 127px;
+            margin-top: 3740px;
+            font-family: 'Abril Fatface';
+            font-size: 32px;
+            color: #2B2C43;
+         }            
+         .testimonial-section .img-here{
+            position: absolute;
+            width: 1230px;
+            height: 569px;
+            margin-left: 104px;
+            margin-top: 3970px;
+            background-image: linear-gradient(to top left, rgb(0, 0, 0), rgb(110, 41, 41));
+            border-radius: 10px;
+            z-index: 6;
+         }
+         .julian{
+            position: absolute;
+            width: 449px;
+            height: 199px;
+            left: 259px;
+            top: 4051px;
+            z-index: 6;
+            background: #FFFFFF;
+            box-shadow: 20px 4px 100px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+         }
+         .img-julian{
+            position: absolute;
+            width: 51px;
+            height: 51px;
+            margin-left: 303px;
+            margin-top: 4095px;
+            border-radius: 50%;
+            background-color: #0e5edf;
+            z-index: 12;
+         } 
+         .julian h3{
+            position: absolute;
+            margin-left: 117px;
+            margin-top: 58px;
+            font-family: 'Lato',sans-serif;
+            font-size: 20px;
+            color: #282A30;
+         }
+         .julian p{
+            position: absolute;
+            margin-left: 117px;
+            margin-top: 95px;
+            font-family: 'Lato',sans-serif;
+            font-size: 14px;
+            color: rgba(40, 42, 48, 0.4)
+         }
+         .joshua{
+            position: absolute;
+            width: 449px;
+            height: 199px;
+            left: 259px;
+            top: 4260px;
+            z-index: 6;
+            background: #FFFFFF;
+            box-shadow: 20px 4px 100px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+         }
+         .joshua h3{
+            position: absolute;
+            margin-left: 117px;
+            margin-top: 58px;
+            font-family: 'Lato',sans-serif;
+            font-size: 20px;
+            color: #282A30;
+         }
+         .joshua p{
+            position: absolute;
+            margin-left: 117px;
+            margin-top: 95px;
+            font-family: 'Lato',sans-serif;
+            font-size: 14px;
+            color: rgba(40, 42, 48, 0.4)
+         }
+         .elisa{
+            position: absolute;
+            width: 449px;
+            height: 199px;
+            left: 729px;
+            top: 4260px;
+            z-index: 6;
+            background: #FFFFFF;
+            box-shadow: 20px 4px 100px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+         }
+         .elisa h3{
+            position: absolute;
+            margin-left: 117px;
+            margin-top: 58px;
+            font-family: 'Lato',sans-serif;
+            font-size: 20px;
+            color: #282A30;
+         }
+         .elisa p{
+            position: absolute;
+            margin-left: 117px;
+            margin-top: 95px;
+            font-family: 'Lato',sans-serif;
+            font-size: 14px;
+            color: rgba(40, 42, 48, 0.4)
+         }
+         
+         .rita{
+            position: absolute;
+            width: 449px;
+            height: 199px;
+            left: 728px;
+            top: 4051px;
+            z-index: 6;
+            background: #FFFFFF;
+            box-shadow: 20px 4px 100px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+         }
+         .rita h3{
+            position: absolute;
+            margin-left: 117px;
+            margin-top: 58px;
+            font-family: 'Lato',sans-serif;
+            font-size: 20px;
+            color: #282A30;
+         }
+         .rita p{
+            position: absolute;
+            margin-left: 117px;
+            margin-top: 95px;
+            font-family: 'Lato',sans-serif;
+            font-size: 14px;
+            color: rgba(40, 42, 48, 0.4)
+         }
+         .img-julian{
+             background-image: url(../assets/images/julian.jpg);
+             background-size: cover;
+            position: absolute;
+            border-radius: 50%;
+            width: 51px;
+            height: 51px;
+            margin-left: 303px;
+            margin-top: 4095px; 
+            z-index: 12;
+         }
+         .img-rita{
+            background-image: url(../assets/images/rita.jpg);
+            background-size: cover;
+            border-radius: 50%;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            margin-left: 772px;
+            margin-top: 4105px;
+            z-index: 12;
+         }
+         .img-joshua{
+            background-image: url(../assets/images/joshua.jpg);
+            background-size: cover;
+            border-radius: 50%;
+            position: absolute;
+            width: 51px;
+            height: 51px;
+            margin-left: 303px;
+            margin-top: 4304px;
+            z-index: 12;
+         }
+         .img-elisa{
+            background-image: url(../assets/images/elisa.jpg);
+            background-size: cover;
+            border-radius: 50%;
+            position: absolute;
+            width: 51px;
+            height: 51px;
+            margin-left: 773px;
+            margin-top: 4304px;
+            z-index: 12;
+         }
+         .testimonial-section .ellipsebox{
+            position: absolute;
+            width: 305px;
+            height: 204px;
+            margin-left: 39px;
+            margin-top: 4329.29px;
+            z-index: 3;
+         }
+                    /* Testimonial Section End  */
+
+                    /* Footer Start */
+
+         footer{
+            position: absolute;
+            width: 1153px;
+            height: 224px;
+            margin-left: 100px;
+            margin-top: 4732px;
+         }  
+         footer a,p{
+             text-decoration: none;
+            display: block;
+            font-family:'Lato',sans-serif ;
+            color: #3B4C68;
+            opacity: 70%;
+         }
+         footer h3{
+            font-family:'Lato',sans-serif ;
+            font-size: 26px;
+            color: #3B4C68;
+         }
+         footer .discount{
+            position: absolute;
+            margin-top: 3px;
+            margin-left: 0;
+            display: inline-block;
+         }         
+         footer .services{
+            position: absolute;
+            margin-top: 5px;
+            margin-left: 320px;
+            display: inline-block;
+         }
+         footer .company{
+            position: absolute;
+            margin-top: 5px;
+            margin-left:645px;
+            display: inline-block;
+        }
+        footer .contact{
+            position: absolute;
+            margin-top: 5px;
+            margin-left:967px;
+            margin-right:0;
+            display: inline-block;
+        }
+
